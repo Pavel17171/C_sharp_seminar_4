@@ -17,11 +17,11 @@ Console.WriteLine();
 
 
 int sumPositive = 0;              // Сумма положительных чисел в массиве
-int sumNegative = 0;              // Сумма отрицательных чисел в массиве (по модулю)
+int sumNegative = 0;              // Сумма отрицательных чисел в массиве
 for (int i = 0; i < quantity; i++)
     if (array[i] >= 0)
         sumPositive += array[i];
     else 
-        sumNegative -= array[i];
+        sumNegative += array[i];
 Console.WriteLine($"Сумма положительных чисел равна = {sumPositive}");
 Console.WriteLine($"Сумма отрицательных чисел равна = {sumNegative}");
